@@ -1,0 +1,32 @@
+.countdown-container{
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: #fff;
+}
+.countdown-card{
+  background-color: #fff;
+  border:none;
+  text-align: center;
+  margin: 0 10px;
+  padding: 20px;
+  min-width: 100px;
+}
+.countdown-card .card-title{
+  font-size: 2rem;
+  color: #000;
+}
+.countdown-card .card-text{
+  font-size: 1rem;
+  color: #555;
+}
+.coming-soon{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
